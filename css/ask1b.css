@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: yellow;
+}
+
+
+/* selected link */
+.menu {
+  width: 25%;
+  float: left;
+}
+
+a.active {
+    color: black;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    background: coral;
+    position: absolute;
+    z-index: 30;
+	text-shadow: 0 0 3px #FF0000;
+}
+
+.sidebarleft {
+    width: 10%;
+    height: 90%;
+    background: #4682B4;
+    top: 10%;
+    left: 0;
+    position: absolute;
+    
+}
+
+.sidebarright {
+    width: 10%;
+    height: 90%;
+    background: #F5DEB3;
+    right: 0;
+    top: 10%;
+    position: absolute;
+    
+}
+
+
+ul.Lista {
+	list-style-type: square;
+	background: lightred;
+	position: absolute;
+	color: white;
+   }
+   
+table, th, td {
+  border: 1px solid black;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  
+}   
+
+[class*="Lista-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+.Lista-1 {width: 8.33%;}
+.Lista-2 {width: 16.66%;}
+.Lista-3 {width: 25%;}
+.Lista-4 {width: 33.33%;}
+.Lista-5 {width: 41.66%;}
+.Lista-6 {width: 50%;}
+.Lista-7 {width: 58.33%;}
+.Lista-8 {width: 66.66%;}
+.Lista-9 {width: 75%;}
+.Lista-10 {width: 83.33%;}
+.Lista-11 {width: 91.66%;}
+.Lista-12 {width: 100%;}
+
+th {
+  text-align: center;
+   background-color: #4CAF50;
+}
+tr:after {
+  content: "";
+  clear: both;
+  display: table;
+  text-align: center;
+  
+}  
+  
+.main {
+    
+    height: 85%;
+    background:linear-gradient(to bottom right, red, yellow);
+    position: absolute;
+    z-index: 5;
+    top:   10%;
+    left:  10%;
+    right: 10%;
+	width: 75%;
+    float: left;
+}
+
+.footer {
+    width: 95%;
+    height: 50px%;
+    top: 90%;
+    background: #020304;
+    position: absolute;
+    z-index: 40;
+	bottom:0;
+}
+
+.content {
+    padding: 30px;
+}
+
+.image {
+    max-width: 100% !important;
+    height: auto;
+    display: block;
+}
+
+.videooo {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    display: block;
+}
+
+.videoo {
+    max-width: 100% !important;
+    height: auto;
+    display: block;
+}
+
+.imagee {
+    border: 10px ridge blue;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    display: block;
+}
+
+.selida {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    color: lightblack;
+    font-size: 40px;
+	text-shadow: 2px 2px 5px red;
+}
+
+
+.copyr {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 5%;
+}
+
+.epistrofi {
+    text-align: left;
+    font-size: 20px;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    margin-top: 20px;
+}
+
+.maintitlee {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+	font-weight: bold;
+}
+
+
+.slideshow {
+  width: 400px;
+  margin-top: -50px;
+  overflow: hidden;
+  border: solid 1px white;
+}
+
+.slideshow-container {
+  width: 1600px;
+  font-size: 30px;
+  transition: 1s ease;
+  height: 300px;
+}
+
+.slideshow-container:hover {
+  animation-play-state: paused;
+}
+
+img{
+  border: 1px solid #ddd;
+  width: 400px;
+  height: auto;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.slide {
+  animation: slide 24s ease infinite;
+}
+

@@ -1,0 +1,102 @@
+<DOCTYPE html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/ask1.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>ask1</title>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+    <html>
+
+    <body>
+
+
+        <div class="header">
+            <div class="maintitlee">
+            <span>Ιαπωνικά Αυτοκίνητα</span></div>
+        </div>
+
+        <div class="sidebarleft">
+            
+                        <ul class="selides">
+                            <li class="selida">
+                                <a href="ask1Page1.html">Honda</a></li>
+                            <li class="selida">
+                                <a href="ask1Page2.html">Nissan</a></li>
+                            <li class="selida">
+                                <a href="ask1Page3.html" class="active">Mitsubishi</a></li></ul>
+        
+        </div>
+        <div class="sidebarright">
+          <div class="epistrofi">
+            <a href="ask1Page1.html">Επιστροφή στην αρχική σελίδα</a></div>
+        </div>
+		
+		<div class="main">
+
+            <h2 class="title">Mitsubishi</h2>
+              <div class="content">
+
+               
+                <div class="videooo" style="float:right;">
+                    <video width="400" height="400" controls autoplay class="videoo" src="assets/vid/Mitsubishi.mp4" type="video/mp4" alt="Mitsubishi" title="Mitsubishi">Your browser does not support the video tag.</video>
+                </div>
+				
+				
+				<div>
+				Η Mitsubishi Motors Corporation είναι μια πολυεθνική αυτοκινητοβιομηχανία με έδρα το Μινατό, Τόκιο, Ιαπωνία. Το 2011, η Mitsubishi Motors ήταν η έκτη μεγαλύτερη ιαπωνική αυτοκινητοβιομηχανία και η δέκατη έκτη μεγαλύτερη σε όλο τον κόσμο. Από τον Οκτώβριο του 2016, η Mitsubishi πωλήθηκε κατά το ένα τρίτο (34%) στην Nissan και έτσι είναι ένα μέρος της συμμαχίας Renault - Nissan.
+				</br>
+				</br>
+				
+				<table style="width:50%">
+                  <tr>
+                     <th>Κατηγορία</th>
+                     <th>Κυβικά</th> 
+                     <th>Εικόνες</th>
+                    </tr>                 
+				    <tr>
+                     <td>Evo8</td>
+                     <td>2000</td> 
+                     
+                   </tr>
+                   <tr>
+                     <td>Evo9</td>
+                     <td>2500</td> 
+                     
+                   </tr>
+                   <tr>
+                     <td>Evo10</td>
+                     <td>3000</td> 
+                     
+                   </tr>
+                   <tr>
+                     <td>Eclipse</td>
+                     <td>1800</td> 
+                     
+                  </tr>
+               </table>
+				</div>
+			 </div>
+			 <script>
+               $(document).ready(function(){
+               $(".btn1").click(function(){
+               $("video").fadeOut()
+                  });
+               $("#hide").click(function(){
+               $("table").hide();
+                  });
+			   $(".btn3").click(function(){
+               $("div").animate({left: '250px'});
+                    });
+              });
+           </script>
+			 
+			 <button class="btn1">Fade out</button>
+             <button id="hide">Hide</button>
+			 <button class="btn3">Animation</button>
+			<div class="footer">
+			 <h4 class="copyr">Copyright 2019 &copy; Ιαπωνικά αυτοκίνητα</h4>
+         </div>
+		 
+		 
